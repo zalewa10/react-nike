@@ -28,7 +28,7 @@ class Query:
     def dynamicTableData(self) -> DynamicTableData:
         return DynamicTableData(
             text1="This is your random table:",
-            text2="Some random text here.",
+            text2="Some random text here under.",
             data=sample_data
         )
 
