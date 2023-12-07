@@ -1,0 +1,75 @@
+.App {
+  margin: 20px;
+}
+
+.MultilineTextField {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.MultilineTextField textarea {
+  width: 100%;
+  text-align: left;
+}
+
+.MultilineTextField .MuiInputAdornment-positionEnd {
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.DividerText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.TableContainer {
+  margin-top: 20px;
+}
+
+.TableHead {
+  background-color: #f5f5f5;
+}
+
+.SampleTable {
+  margin-top: 20px;
+}
+
+.SampleTable .MuiTypography-gutterBottom {
+  margin-bottom: 10px;
+}
+
+.SampleTable .ButtonCopyTable {
+  color: grey;
+  font-size: small;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.SampleTable .TableActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.SampleTable .MuiIconButton-root {
+  margin-left: 4px;
+}
+
+.SampleTable .TableRowActions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.SampleTable .TableRowActions .MuiIconButton-root {
+  margin-right: 4px;
+}
+
+/* Dzięki temu guzik jest przesunięty o tyle w prawo*/
+.TextArea {
+  width: calc(100% - 32px);
+}
+.TextArea textarea {
+  overflow-y: hidden;
+}
